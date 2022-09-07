@@ -1,0 +1,51 @@
+{
+  "name": "@kinda/mini-utils",
+  "author": "Kinda Hall",
+  "license": "ISC",
+  "scripts": {
+    "commit": "git cz",
+    "build": "webpack --config ./webpack/webpack.prod.js",
+    "release": "standard-version",
+    "push": "git push --follow-tags origin develop"
+  },
+  "repository": {
+    "git": "https://github.com/Alndaly/kinda-mini-utils"
+  },
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "自己封装的一些小程序的方法库",
+  "miniprogram": "dist",
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "json-loader": "^0.5.7",
+    "less": "^4.1.3",
+    "less-loader": "^11.0.0",
+    "postcss-loader": "^7.0.1",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.54.8",
+    "sass-loader": "^13.0.2",
+    "source-map-loader": "^4.0.0",
+    "standard-version": "^9.5.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "terser-webpack-plugin": "^5.3.6",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.8.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4"
+  },
+  "keywords": [
+    "miniprogram",
+    "utils"
+  ]
+}
