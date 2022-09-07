@@ -12,7 +12,7 @@
   "repository": {
     "git": "https://github.com/Alndaly/kinda-mini-utils"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./dist/utils.js",
   "description": "自己封装的一些小程序的方法库",
   "miniprogram": "dist",
