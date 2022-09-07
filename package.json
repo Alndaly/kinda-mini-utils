@@ -6,13 +6,14 @@
     "commit": "git cz",
     "build": "webpack --config ./webpack/webpack.prod.js",
     "release": "standard-version",
-    "push": "git push --follow-tags origin develop"
+    "push": "git push --follow-tags origin develop",
+    "serve": "serve ./example/"
   },
   "repository": {
     "git": "https://github.com/Alndaly/kinda-mini-utils"
   },
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "./dist/utils.js",
   "description": "自己封装的一些小程序的方法库",
   "miniprogram": "dist",
   "devDependencies": {
