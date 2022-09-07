@@ -1,1 +1,1 @@
-console.log(111)
+export { default as router } from './router'
